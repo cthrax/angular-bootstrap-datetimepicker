@@ -307,8 +307,8 @@
       }
 
       function setTime(milliseconds) {
-        var tempDate = new Date(milliseconds);
-        var newDate = new Date(tempDate.getUTCFullYear(), tempDate.getUTCMonth(), tempDate.getUTCDate(), tempDate.getUTCHours(), tempDate.getUTCMinutes(), tempDate.getUTCSeconds(), tempDate.getUTCMilliseconds());
+        var newDate = new Date(milliseconds);
+        //var newDate = new Date(tempDate.getUTCFullYear(), tempDate.getUTCMonth(), tempDate.getUTCDate(), tempDate.getUTCHours(), tempDate.getUTCMinutes(), tempDate.getUTCSeconds(), tempDate.getUTCMilliseconds());
 
         switch (configuration.modelType) {
           case 'Date':
